@@ -11,7 +11,7 @@ A sample application to receive Push Notifications on iOS devices using the Pars
 - Send a message from the Dashboard -> More -> Push
 - Send a message from code:
 
-  ```
+```
 Parse.Push.send(
     {
       where: {},
@@ -23,4 +23,4 @@ Parse.Push.send(
     },
     { useMasterKey: true },
   );
-  ```
+```
